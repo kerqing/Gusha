@@ -1,0 +1,11 @@
+{
+  "name": "gusha",
+  "version": "1.0.0",
+  "description": "Ya~!",
+  "scripts": {
+    "ya": "echo Ya~! && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
