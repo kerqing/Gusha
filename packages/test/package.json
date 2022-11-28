@@ -1,12 +1,11 @@
 {
   "name": "@packages/test",
-  "version": "1.0.0",
-  "description": "test",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "vite"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
 }
