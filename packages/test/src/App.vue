@@ -2,7 +2,5 @@
 </script>
 
 <template>
-    <div>
-        Hello Vite + Vue + TypeScript
-    </div>
+    <Hello></Hello>
 </template>
