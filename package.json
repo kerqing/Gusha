@@ -6,13 +6,15 @@
   "license": "ISC",
   "keywords": [],
   "scripts": {
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "gen:apis": "openapi-generator-cli generate -i docs/openapi.yaml -g typescript-fetch -o client/openapi"
   },
   "dependencies": {
     "vue": "^3.2.41"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.30.1",
+    "@openapitools/openapi-generator-cli": "^2.5.2",
     "@types/node": "^17.0.35",
     "@vitejs/plugin-vue": "^3.2.0",
     "eslint": "^8.27.0",
