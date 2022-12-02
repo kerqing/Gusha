@@ -1,22 +1,24 @@
 {
   "name": "gusha",
   "version": "1.0.0",
-  "description": "Ya~!",
-  "scripts": {
-    "ya": "echo Ya~! && exit 0",
-    "dev:test": "pnpm -C ./packages/test dev"
-  },
-  "keywords": [],
+  "private": true,
   "author": "",
   "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "lint:fix": "eslint . --fix"
+  },
   "dependencies": {
-    "vite": "^3.2.4"
+    "vue": "^3.2.41"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.30.1",
+    "@types/node": "^17.0.35",
     "@vitejs/plugin-vue": "^3.2.0",
-    "typescript": "^4.9.3",
-    "unplugin-vue-components": "^0.22.11",
-    "vue": "^3.2.45",
+    "eslint": "^8.27.0",
+    "typescript": "^4.6.4",
+    "unplugin-vue-components": "^0.19.5",
+    "vite": "^3.2.3",
     "vue-tsc": "^1.0.9"
   }
 }

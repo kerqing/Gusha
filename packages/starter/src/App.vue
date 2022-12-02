@@ -2,5 +2,5 @@
 </script>
 
 <template>
-    <Hello></Hello>
+  <HelloWorld msg="Hello Vue + Vite" />
 </template>
